@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'zet-for-root',
   template: `
-    <div>Uses GridAnimateModule.forRoot({{'{'}} timings: 400ms ease-in-out, containRatio: 1 {{'}'}})</div>
+    <div>Uses GridAnimateModule.forRoot({{'{'}} timings: 600ms ease-in-out, containRatio: 2/3 {{'}'}})</div>
 
     <div class="grid" zetGridContainer>
       <div class="tile" zetGridTile *ngFor="let tile of tiles"></div>

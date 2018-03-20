@@ -10,8 +10,8 @@ import { ForRootComponent } from './for-root.component';
     CommonModule,
     ForRootRoutingModule,
     GridAnimateModule.forRoot({
-      timings: '400ms ease-in-out',
-      containRatio: 1,
+      timings: '600ms ease-in-out',
+      containRatio: 2 / 3,
     }),
   ],
   declarations: [ForRootComponent],
