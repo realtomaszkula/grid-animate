@@ -20,6 +20,11 @@ const routes: Routes = [
     loadChildren:
       './examples/container-options/container-options.module#ContainerOptionsModule',
   },
+  {
+    path: 'tile-options',
+    loadChildren:
+      './examples/tile-options/tile-options.module#TileOptionsModule',
+  },
 ];
 
 @NgModule({

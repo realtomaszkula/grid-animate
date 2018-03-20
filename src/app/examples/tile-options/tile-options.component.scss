@@ -1,0 +1,12 @@
+@import '../../grid';
+
+.grid {
+  @include grid();
+}
+
+.tile {
+  background-color: blueviolet;
+}
+
+
+
