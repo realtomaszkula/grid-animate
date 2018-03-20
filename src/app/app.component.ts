@@ -6,6 +6,7 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
   <nav>
     <div routerLink="/zero-config">Zero config</div>
     <div routerLink="/for-root">For root</div>
+    <div routerLink="/container-options">ContainerOptions</div>
   </nav>
 
     <router-outlet></router-outlet>

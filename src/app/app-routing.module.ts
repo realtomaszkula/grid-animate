@@ -15,6 +15,11 @@ const routes: Routes = [
     path: 'for-root',
     loadChildren: './examples/for-root/for-root.module#ForRootModule',
   },
+  {
+    path: 'container-options',
+    loadChildren:
+      './examples/container-options/container-options.module#ContainerOptionsModule',
+  },
 ];
 
 @NgModule({
