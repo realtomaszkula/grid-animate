@@ -9,7 +9,7 @@ const routes: Routes = [
   },
   {
     path: 'zero-config',
-    loadChildren: './zero-config/zero-config.module#ZeroConfigModule',
+    loadChildren: './examples/zero-config/zero-config.module#ZeroConfigModule',
   },
 ];
 
