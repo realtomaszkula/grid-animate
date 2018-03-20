@@ -11,6 +11,10 @@ const routes: Routes = [
     path: 'zero-config',
     loadChildren: './examples/zero-config/zero-config.module#ZeroConfigModule',
   },
+  {
+    path: 'for-root',
+    loadChildren: './examples/for-root/for-root.module#ForRootModule',
+  },
 ];
 
 @NgModule({
