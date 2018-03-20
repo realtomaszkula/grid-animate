@@ -6,9 +6,9 @@ export interface GridAnimateConfig {
 }
 
 export const GRID_ANIMATE_TIMINGS = new InjectionToken<string>(
-  'gridAnimateTimings',
+  'GridAnimateTimings',
 );
 
-export const GRID_CONTAIN_RATIO = new InjectionToken<string>(
-  'gridContainRatio',
+export const GRID_CONTAIN_RATIO = new InjectionToken<number>(
+  'GridContainRatio',
 );
